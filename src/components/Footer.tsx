@@ -4,7 +4,7 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 py-8 text-center text-sm text-gray-500">
         <p>© {new Date().getFullYear()} Intazar Khan</p>
 
-        <div className="flex justify-center gap-6 mt-4">
+        <div className="flex justify-center gap-6 mt-4 flex-wrap">
           <a
             href="https://github.com/INTAZARKHAN?tab=repositories"
             target="_blank"
@@ -35,6 +35,24 @@ const Footer: React.FC = () => {
             rel="noopener noreferrer"
           >
             Facebook
+          </a>
+
+          {/* WhatsApp */}
+          <a
+            href="https://wa.me/923461731419"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            WhatsApp
+          </a>
+
+          {/* TikTok */}
+          <a
+            href="https://www.tiktok.com/@intazarkhan887"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            TikTok
           </a>
         </div>
       </div>
